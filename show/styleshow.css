@@ -1,0 +1,163 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+.back {
+    width: 4%;
+    margin: 1%;
+    position: fixed;
+}
+.back:hover {
+    animation: 1s back infinite;
+}
+@keyframes back {
+    0% {padding-top: 0px;}
+    50% {padding-top: 5px;}
+    100% {padding-top: 0px;}
+}
+h1{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 7vh;
+}
+p{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 4vh;
+}
+/* -- camionet -- */
+div#camionette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#camionette iframe{
+    padding: 0;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+}
+/* ---- nina ---- */
+div#nina{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div#nina img {
+    padding-bottom: 1%;
+    width: 60%;
+    margin: auto;
+}
+/* -- fontaine -- */
+div#fontaine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#fontaine iframe {
+    padding: 0;
+    margin: auto;
+    width: 444px;
+    height: 600px;
+    padding-bottom: 40px;
+}
+/* -- feu de camps -- */
+div#feudecamps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#feudecamps img{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 1%;
+}
+/* -- yourapp -- */
+div#yourapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#yourapp iframe{
+    padding: 0;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+}
+/* -- bello -- */
+div#bello{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div#bello img {
+    padding-bottom: 1%;
+    width: 60%;
+    margin: auto;
+}
+/* -- montreal -- */
+body#bodymontreal{
+    background-color: beige;
+}
+div#montreal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div#montreal img {
+    padding-bottom: 1%;
+    width: 60%;
+    margin: auto;
+}
+/* -- romeo -- */
+div#romeo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+div#romeo img {
+    padding-bottom: 1%;
+    height: 99vh;
+    margin: auto;
+}
+/* -- chrono -- */
+div#chronometre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#chronometre iframe{
+    padding-bottom: 50px;
+    margin: auto;
+    width: 560px;
+    height: 560px;
+}
+/* -- face -- */
+div#face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#face iframe{
+    padding-bottom: 50px;
+    margin: auto;
+    width: 560px;
+    height: 560px;
+}
+/* -- marche -- */
+div#marche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div#marche iframe{
+    padding-bottom: 50px;
+    margin: auto;
+    width: 560px;
+    height: 560px;
+}
